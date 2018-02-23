@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Jordin Gardner</title>
+
+    <link rel="stylesheet" href="style.css"/>
+
+    <script src="jquery.min.js" type="text/javascript"></script>
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  </head>
+  <body>
+    <img class="over" src="images/me.png" alt="" />
+    <div id="container">
+        <!-- titles -->
+        <section class="clearfix">
+          <div class="right-aligned">
+            <h1>hi, my name is jordin.</h1>
+            <h2>i build stuff on the web</h2>
+            <img class="mobile-me right-aligned" src="images/me.png" alt="" />
+          </div>
+        </section>
+
+        <!-- navigation -->
+        <section class="clearfix">
+          <nav class="right-aligned">
+            <ul class="clearfix">
+              <li class="active"><a id="about"  href="#about"><i class="fa fa-user-o"></i> <span>- about</span></a></li>
+              <!-- <li><a id="blog" href="#blog"><i class="fa fa-pencil"></i> <span>- blog</span></a></li> -->
+              <li><a id="contact" href="#contact"><i class="fa fa-envelope-o"></i> <span>- hire me</span></a></li>
+            </ul>
+          </nav>
+        </section>
+
+        <!-- Content -->
+        <section class="clearfix content">
+          <div class="right-aligned" id="content-container">
+            <div class="inner">
+              <!-- about -->
+              <section id="about-section">
+                <h3><span>about me</span></h3>
+                <p>
+                  My name is Jordin Gardner and I'm from Phoenix, Arizona. I currently live in Utah as I go to school pursuing
+                  a degree in <a href="https://en.wikipedia.org/wiki/Management_information_system" target="_blank">Management Information Systems</a>.
+                </p>
+                <p>
+                  I came down with a bug for coding at a young age and it's been one of my passions ever since.
+                  My years of self-teaching are now being complemented by formal education  
+                  and real-life work experience, resulting in concrete expertise that I love sharing with others. 
+                </p>
+                <p>
+                  I like pineapple on my pizza, I prefer <a href="https://en.wikipedia.org/wiki/Vim_(text_editor)" target="_blank">Vim</a> over <a href="https://en.wikipedia.org/wiki/Emacs" target="_blank">Emacs</a>, and I'm convinced the color orange
+                  goes good with anything. I'm just another cool cucumber building slick stuff on the wild web.
+                </p>
+              </section>
+              <!-- work -->
+              <section id="blog-section" class="no-display">
+                <h3><span>latest posts</span></h3>
+                <h2 class="text-center text-top-padded">Coming soon!</h2>
+
+                <!-- Empty div that the content will go in -->
+                <div></div>
+              </section>
+
+              <!-- contact -->
+              <section id="contact-section" class="no-display">
+                <h3><span>hire me</span></h3>
+                <form action="" method="post">
+                  <span>
+                    <i class="fa fa-id-card-o"></i>
+                    <input type="text" name="name" id="" value="" placeholder="Your name"/>
+                  </span>
+                  <span>
+                    <i class="fa fa-envelope-o"></i>
+                    <input type="text" name="email" id="" value="" placeholder="Your e-mail"/>
+                  </span>
+                  <textarea name="" id="" rows="8" cols="40" placeholder="What's up?"></textarea>
+                  <button id="send-mail" type="submit"><i class="fa fa-send"></i> <span>Send</span></button>
+                </form>
+              </section>
+            </div>
+          </div>
+        </section>
+      <!-- End "container" -->
+    </div>
+
+    <!-- Script file -->
+    <script src="main.js" type="text/javascript" charset="utf-8"> </script>
+  </body>
+</html>
